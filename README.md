@@ -8,6 +8,8 @@ cd homework
 git init => to initial commit
 rails s => run server , check if it is working
 
+### install gem
+
 [rubygems](https://rubygems.org/)
 => to check current version of gems
 
@@ -37,16 +39,18 @@ end
 bundle (terminal) => to run added gems
 
 how to use gems that I add => search documents for them
+
 [document for simple_form gem](https://github.com/plataformatec/simple_form)
 
-rails g controller posts => it should be plural for the controller, but for the model it should be singular
+### rails g controller posts => it should be plural for the controller, but for the model it should be singular
+
 => set up after generating controller
 
 1. controller
 2. route
 3. show, create, edit, update, destroy
 
-generate Data model (database)
+### generate Data model (database)
 
 1. rails g model Post title:string content:text
 2. rails db:migrate
